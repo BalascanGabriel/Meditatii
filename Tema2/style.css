@@ -1,0 +1,48 @@
+body {
+    text-align: center; /* Center the inline-block elements */
+}
+
+main {
+    white-space: nowrap; /* Prevent line breaks between inline-block elements */
+}
+
+section {
+    display: inline-block;
+    width: 25%; /* Adjust the width as needed */
+    vertical-align: top; /* Align the top of the inline-block elements */
+    text-align: left; /* Reset the text alignment within the sections */
+    margin: 10px; /* Add some spacing between sections */
+}
+
+header {
+    background-color: #333; /* Choose your background color */
+    color: #fff; /* Choose your text color */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 100px; /* Adjust the size of your logo */
+}
+
+.buttons button {
+    margin-right: 10px; /* Adjust the spacing between buttons */
+    background-color: #fff; /* Choose your button background color */
+    color: #333; /* Choose your button text color */
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-info {
+    text-align: right;
+}
+
+.email, .phone {
+    margin-bottom: 5px;
+}
+
+/* Add more styling as needed */
