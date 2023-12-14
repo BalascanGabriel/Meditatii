@@ -14,16 +14,19 @@ header {
 }
 
 .logo {
-    margin-left: 20px;
+    display: flex; /* Make the logo and buttons flex containers */
+    align-items: center; /* Align items vertically in the logo container */
+    margin: 30px;
 }
 
 .logo img {
     max-width: 100px;
+    margin-right: 10px; /* Add margin between logo and buttons */
 }
 
 .buttons {
-    margin-left: 20px;
     display: flex;
+    margin-left: auto; /* Move the buttons to the center */
 }
 
 .buttons button {
@@ -44,10 +47,11 @@ header {
     transform: scale(1.1);
 }
 
-
 .contact-info {
     text-align: right;
     display: flex;
+    flex-grow: 1; /* Allow the contact info to take remaining space */
+    justify-content: flex-end; /* Align contact info to the right */
 }
 
 .email,
