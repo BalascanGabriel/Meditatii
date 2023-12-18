@@ -1,0 +1,73 @@
+
+
+/* BUTTON SECTION STYLE */
+.button-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.button-section ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.button-section li {
+    margin: 0 10px;
+}
+
+.button {
+    background-color: #f0f0f0; /* Light gray background */
+    color: #3498db; /* Blue text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #3498db; /* Blue background on hover */
+    color: #fff; /* White text color on hover */
+}
+
+/* CARD SECTION STYLE */
+.card-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cards {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    width: calc(30% - 20px); /* Adjusted width with margin */
+    margin: 15px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 70%;
+    border-radius: 5px;
+}
+
+.card-title {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-description {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #555; /* Dark gray text color */
+}
