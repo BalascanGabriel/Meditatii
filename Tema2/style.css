@@ -1,8 +1,16 @@
 body {
     text-align: center;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
+main {
+    flex: 1; /* Allow the main content to grow and fill the available space */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+}
 
 /*HEADER AREA STYLE*/
 header {
@@ -29,23 +37,26 @@ header {
     margin-left: auto; /* Move the buttons to the center */
 }
 
-.buttons button {
+.buttons a {
     margin-right: 10px;
     background-color: #fff;
     color: #333;
     padding: 5px 10px;
+    text-decoration: none; /* Remove underline from links */
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
+    display: inline-block; /* Make links behave like buttons */
 }
 
-.buttons button:hover {
+.buttons a:hover {
     background-color: #3498db;
     color: #fff;
     transform: scale(1.1);
 }
+
 
 .contact-info {
     text-align: right;
@@ -99,15 +110,17 @@ header {
 /*HERO SECTION AREA STYLE FINISH*/
 
 /*MID SECTION AREA STYLE*/
-.mid-section {
+.mid-section ul {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     max-width: 1200px;
     margin: 0 auto;
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove default list padding */
 }
 
-.mid-section section {
+.mid-section li {
     width: 20%;
     text-align: left;
     margin: 10px;
@@ -115,12 +128,15 @@ header {
     padding: 10px;
 }
 
+
 /*MID SECTION AREA STYLE FINISH*/
 
 /*WHAT WE DO SECTION*/
-.what-we-do-section {
+.what-we-do-section ul {
     text-align: center;
     padding: 30px;
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove default list padding */
 }
 
 .what-we-do-section h2 {
@@ -128,37 +144,40 @@ header {
     font-weight: bold;
 }
 
+
 /*WHAT WE DO SECTION FINISH*/
 
-/*IMGAE SECTION STYLE*/
+/* IMAGE SECTION STYLE */
 .image-section {
     display: flex;
-    justify-content: space-between;
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
     margin-top: 30px;
-    /* Add some space between sections */
     margin-right: 30px;
-    /* Add space on the right */
     margin-left: 30px;
-    /* Add space on the left */
     margin-bottom: 30px;
 }
 
-.image-container {
-    width: 23%;
-    /* Adjust the width as needed */
-    margin-right: 10px;
-    /* Add space on the right */
-    margin-left: 10px;
-    /* Add space on the left */
+.image-section ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.image-section li {
+    flex: 0 0 30%;
+    margin: 0 10px; /* Add some margin between items */
 }
 
 .image-container img {
     width: 100%;
-    /* Make sure the image fills the container */
+    height: auto;
 }
+
 
 /*IMGAE SECTION STYLE END*/
 
+/*OUR TEAM SECTION STYLE*/
 /*OUR TEAM SECTION STYLE*/
 .our-team-section {
     background-color: #f5f0ff;
@@ -178,10 +197,12 @@ header {
     font-weight: bold;
 }
 
-.team-cards-section {
+.team-cards-list {
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove default list padding */
 }
 
 .team-card {
@@ -192,6 +213,7 @@ header {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     /* Add a subtle shadow */
+    margin: 10px;
 }
 
 .team-card img {
