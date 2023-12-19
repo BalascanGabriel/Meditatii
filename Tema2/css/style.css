@@ -1,7 +1,15 @@
+:root {
+    --text-color: #333;
+    --background-color: #f5f5f5;
+    --highlight-color: #3498db;
+}
+
 body {
     text-align: center;
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+    background-color: var(--background-color);
 }
 
 main {
@@ -73,6 +81,14 @@ header {
     margin-right: 20px;
 }
 
+.contact-info:hover .email,
+.contact-info:focus .email,
+.contact-info:hover .phone,
+.contact-info:focus .phone {
+    color: #3498db; /* Change to the specified color */
+}
+
+
 /*HEADER AREA STYLE FINISH*/
 
 /*HERO SECTION AREA STYLE*/
@@ -88,8 +104,8 @@ header {
 }
 
 .hero-content h1 {
-    font-size: 36px;
-    font-weight: bold;
+    font-size: 24px; 
+    line-height: 1.5; 
 }
 
 .order-button {
@@ -126,6 +142,8 @@ header {
     margin: 10px;
     color: #333;
     padding: 10px;
+    font-size: 16px;
+    line-height: 1.6;
 }
 
 
@@ -140,8 +158,8 @@ header {
 }
 
 .what-we-do-section h2 {
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.4;
 }
 
 
@@ -193,8 +211,8 @@ header {
 .our-team-title h2 {
     color: #000;
     /* Black text color */
-    font-size: 36px;
-    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.5;
 }
 
 .team-cards-list {
@@ -222,14 +240,15 @@ header {
 
 .team-card h3 {
     margin-top: 10px;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.6;
 }
 
 .team-card p {
     margin-top: 5px;
     font-size: 14px;
     color: #555;
+    line-height: 1.4;
     /* Dark gray text color */
 }
 
@@ -260,4 +279,80 @@ footer {
     font-size: 14px;
     margin: 0;
     word-wrap: break-word; /* Allow the text to wrap within the box */
+}
+
+
+/*PORTFOLIO STYLE BEGIN*/
+
+
+/* BUTTON SECTION STYLE */
+.portfolio-button-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.portfolio-button-section ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-button-section li {
+    margin: 0 10px;
+}
+
+.portfolio-button {
+    background-color: #f0f0f0; /* Light gray background */
+    color: #3498db; /* Blue text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.portfolio-button:hover {
+    background-color: #3498db; /* Blue background on hover */
+    color: #fff; /* White text color on hover */
+}
+
+/* CARD SECTION STYLE */
+.card-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cards {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    width: calc(30% - 20px); /* Adjusted width with margin */
+    margin: 15px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 70%;
+    border-radius: 5px;
+}
+
+.card-title {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-description {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #555; /* Dark gray text color */
 }
