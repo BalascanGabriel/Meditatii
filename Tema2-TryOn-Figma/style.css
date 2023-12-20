@@ -1,0 +1,31 @@
+:root {
+    --cloud: #E7E9FC;
+    --iris: #4D5AE5;
+    --navy-blue: #2E2F42;
+    --slate: #434455;
+    --white: #FFFFFF;
+}
+
+body {
+    margin: 0; /* Remove default margin */
+}
+
+.main-page {
+    width: 1440px;
+    height: 2592px;
+    background: var(--white); /* Background color: White */
+    color: var(--slate); /* Text color: Slate */
+}
+
+.top-line {
+    display: flex;
+    width: 1440px;
+    height: 72px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: var(--navy-blue); /* Background color: Navy Blue */
+    color: var(--white); /* Text color: White */
+}
+
+

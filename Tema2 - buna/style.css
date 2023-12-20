@@ -1,0 +1,672 @@
+/* Figma Styles of your File */
+:root {
+  /* Colors */
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navyblue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --lightslate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navyblu-emodal: rgba(46, 47, 66, 0.4);
+  --grey: rgba(46, 47, 66, 0.7);
+  --white: #ffffff;
+  --dairy: #fcfcfc;
+
+  /* Fonts */
+  --header-1-font-family: Roboto-Bold, sans-serif;
+  --header-1-font-size: 56px;
+  --header-1-line-height: 60px;
+  --header-1-font-weight: 700;
+  --header-1-font-style: normal;
+  --header-2-font-family: Roboto-Bold, sans-serif;
+  --header-2-font-size: 36px;
+  --header-2-line-height: 40px;
+  --header-2-font-weight: 700;
+  --header-2-font-style: normal;
+  --header-3-font-family: Roboto-Medium, sans-serif;
+  --header-3-font-size: 20px;
+  --header-3-line-height: 24px;
+  --header-3-font-weight: 500;
+  --header-3-font-style: normal;
+  --body-font-family: Roboto-Regular, sans-serif;
+  --body-font-size: 16px;
+  --body-line-height: 24px;
+  --body-font-weight: 400;
+  --body-font-style: normal;
+  --body-medium-font-family: Roboto-Medium, sans-serif;
+  --body-medium-font-size: 16px;
+  --body-medium-line-height: 24px;
+  --body-medium-font-weight: 500;
+  --body-medium-font-style: normal;
+  --button-text-font-family: Roboto-Medium, sans-serif;
+  --button-text-font-size: 16px;
+  --button-text-line-height: 24px;
+  --button-text-font-weight: 500;
+  --button-text-font-style: normal;
+  --small-text-font-family: Roboto-Regular, sans-serif;
+  --small-text-font-size: 12px;
+  --small-text-line-height: 14px;
+  --small-text-font-weight: 400;
+  --small-text-font-style: normal;
+  --link-text-font-family: Roboto-Regular, sans-serif;
+  --link-text-font-size: 12px;
+  --link-text-line-height: 16px;
+  --link-text-font-weight: 400;
+  --link-text-font-style: normal;
+
+  /* Effects */
+}
+
+.main-page,
+.main-page * {
+  box-sizing: border-box;
+}
+.main-page {
+  background: #ffffff;
+  width: 1440px;
+  height: 2592px;
+  position: relative;
+  overflow: hidden;
+}
+.footer {
+  position: absolute;
+  inset: 0;
+}
+.dark-bg {
+  background: var(--navyblue, #2e2f42);
+  width: 1440px;
+  height: 312px;
+  position: absolute;
+  left: 0px;
+  top: 2280px;
+}
+.text {
+  width: 264px;
+  height: 112px;
+  position: static;
+}
+.increase-the-flow-of-customers-and-sales-for-your-business-with-digital-marketing-growth-solutions {
+  color: var(--cloud, #f4f4fd);
+  text-align: left;
+  font-family: var(--body-font-family, "Roboto-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 24px);
+  font-weight: var(--body-font-weight, 400);
+  position: absolute;
+  left: 156px;
+  top: 2420px;
+  width: 264px;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  height: 24px;
+  position: absolute;
+  left: 156px;
+  top: 2380px;
+}
+.web {
+  color: var(--iris, #4d5ae5);
+  text-align: left;
+  font-family: "Raleway-ExtraBold", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 800;
+  text-transform: uppercase;
+  position: relative;
+  width: 44px;
+  height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.studio {
+  color: var(--cloud, #f4f4fd);
+  text-align: left;
+  font-family: "Raleway-ExtraBold", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 800;
+  text-transform: uppercase;
+  position: relative;
+  width: 71px;
+  height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.section-3 {
+  position: absolute;
+  inset: 0;
+}
+.light-bg {
+  background: var(--cloud, #f4f4fd);
+  width: 1440px;
+  height: 732px;
+  position: absolute;
+  left: 0px;
+  top: 1548px;
+}
+.team-card-4 {
+  background: var(--white, #ffffff);
+  border-radius: 0px 0px 4px 4px;
+  padding: 0px 0px 32px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 1020px;
+  top: 1780px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+.img {
+  flex-shrink: 0;
+  width: 264px;
+  height: 260px;
+  position: relative;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 232px;
+  position: relative;
+}
+.daniel-wilson {
+  color: var(--navyblue, #2e2f42);
+  text-align: center;
+  font-family: var(--header-3-font-family, "Roboto-Medium", sans-serif);
+  font-size: var(--header-3-font-size, 20px);
+  line-height: var(--header-3-line-height, 24px);
+  font-weight: var(--header-3-font-weight, 500);
+  position: relative;
+}
+.ui-designer {
+  color: var(--slate, #434455);
+  text-align: center;
+  font-family: var(--body-font-family, "Roboto-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 24px);
+  font-weight: var(--body-font-weight, 400);
+  position: relative;
+}
+.team-card-3 {
+  background: var(--white, #ffffff);
+  border-radius: 0px 0px 4px 4px;
+  padding: 0px 0px 32px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 732px;
+  top: 1780px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+.camila-garcia {
+  color: var(--navyblue, #2e2f42);
+  text-align: center;
+  font-family: var(--header-3-font-family, "Roboto-Medium", sans-serif);
+  font-size: var(--header-3-font-size, 20px);
+  line-height: var(--header-3-line-height, 24px);
+  font-weight: var(--header-3-font-weight, 500);
+  position: relative;
+}
+.marketing {
+  color: var(--slate, #434455);
+  text-align: center;
+  font-family: var(--body-font-family, "Roboto-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 24px);
+  font-weight: var(--body-font-weight, 400);
+  position: relative;
+}
+.team-card-2 {
+  background: var(--white, #ffffff);
+  border-radius: 0px 0px 4px 4px;
+  padding: 0px 0px 32px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 444px;
+  top: 1780px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+.tom-ford {
+  color: var(--navyblue, #2e2f42);
+  text-align: center;
+  font-family: var(--header-3-font-family, "Roboto-Medium", sans-serif);
+  font-size: var(--header-3-font-size, 20px);
+  line-height: var(--header-3-line-height, 24px);
+  font-weight: var(--header-3-font-weight, 500);
+  position: relative;
+}
+.frontend-developer {
+  color: var(--slate, #434455);
+  text-align: center;
+  font-family: var(--body-font-family, "Roboto-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 24px);
+  font-weight: var(--body-font-weight, 400);
+  position: relative;
+}
+.team-card-1 {
+  background: var(--white, #ffffff);
+  border-radius: 0px 0px 4px 4px;
+  padding: 0px 0px 32px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 156px;
+  top: 1780px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+.mark-guerrero {
+  color: var(--navyblue, #2e2f42);
+  text-align: center;
+  font-family: var(--header-3-font-family, "Roboto-Medium", sans-serif);
+  font-size: var(--header-3-font-size, 20px);
+  line-height: var(--header-3-line-height, 24px);
+  font-weight: var(--header-3-font-weight, 500);
+  position: relative;
+}
+.product-designer {
+  color: var(--slate, #434455);
+  text-align: center;
+  font-family: var(--body-font-family, "Roboto-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 24px);
+  font-weight: var(--body-font-weight, 400);
+  position: relative;
+}
+.our-team {
+  color: var(--navyblue, #2e2f42);
+  text-align: center;
+  font-family: var(--header-2-font-family, "Roboto-Bold", sans-serif);
+  font-size: var(--header-2-font-size, 36px);
+  line-height: var(--header-2-line-height, 40px);
+  font-weight: var(--header-2-font-weight, 700);
+  position: absolute;
+  left: 639px;
+  top: 1668px;
+}
+.section-2 {
+  position: absolute;
+  inset: 0;
+}
+.img-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 924px;
+  top: 1128px;
+}
+.rectangle-71 {
+  border-style: solid;
+  border-color: var(--cornflower, #e7e9fc);
+  border-width: 1px;
+  flex-shrink: 0;
+  width: 360px;
+  height: 300px;
+  position: relative;
+}
+.img-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 540px;
+  top: 1128px;
+}
+.img-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 156px;
+  top: 1128px;
+}
+.what-are-we-doing {
+  color: var(--navyblue, #2e2f42);
+  text-align: center;
+  font-family: var(--header-2-font-family, "Roboto-Bold", sans-serif);
+  font-size: var(--header-2-font-size, 36px);
+  line-height: var(--header-2-line-height, 40px);
+  font-weight: var(--header-2-font-weight, 700);
+  position: absolute;
+  left: 559px;
+  top: 1016px;
+}
+.section-1 {
+  position: absolute;
+  inset: 0;
+}
+.feature-4 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 264px;
+  position: absolute;
+  left: 1020px;
+  top: 792px;
+}
+.technologies {
+  color: var(--navyblue, #2e2f42);
+  text-align: left;
+  font-family: var(--header-3-font-family, "Roboto-Medium", sans-serif);
+  font-size: var(--header-3-font-size, 20px);
+  line-height: var(--header-3-line-height, 24px);
+  font-weight: var(--header-3-font-weight, 500);
+  position: relative;
+  width: 264px;
+}
+.design-practice-focused-on-digital-experiences-we-bring-forth-a-deep-passion-for-problem-solving {
+  color: var(--slate, #434455);
+  text-align: left;
+  font-family: var(--body-font-family, "Roboto-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 24px);
+  font-weight: var(--body-font-weight, 400);
+  position: relative;
+  width: 264px;
+}
+.feature-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 264px;
+  position: absolute;
+  left: 732px;
+  top: 792px;
+}
+.diligence {
+  color: var(--navyblue, #2e2f42);
+  text-align: left;
+  font-family: var(--header-3-font-family, "Roboto-Medium", sans-serif);
+  font-size: var(--header-3-font-size, 20px);
+  line-height: var(--header-3-line-height, 24px);
+  font-weight: var(--header-3-font-weight, 500);
+  position: relative;
+  width: 264px;
+}
+.research-and-confirm-brands-that-present-the-strongest-digital-growth-opportunities-and-minimize-risk {
+  color: var(--slate, #434455);
+  text-align: left;
+  font-family: var(--body-font-family, "Roboto-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 24px);
+  font-weight: var(--body-font-weight, 400);
+  position: relative;
+  width: 264px;
+}
+.feature-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 264px;
+  position: absolute;
+  left: 444px;
+  top: 792px;
+}
+.punctuality {
+  color: var(--navyblue, #2e2f42);
+  text-align: left;
+  font-family: var(--header-3-font-family, "Roboto-Medium", sans-serif);
+  font-size: var(--header-3-font-size, 20px);
+  line-height: var(--header-3-line-height, 24px);
+  font-weight: var(--header-3-font-weight, 500);
+  position: relative;
+  width: 264px;
+}
+.bring-the-key-message-to-the-brand-s-audience-for-the-best-price-within-the-shortest-possible-time {
+  color: var(--slate, #434455);
+  text-align: left;
+  font-family: var(--body-font-family, "Roboto-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 24px);
+  font-weight: var(--body-font-weight, 400);
+  position: relative;
+  width: 264px;
+}
+.feature-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 264px;
+  position: absolute;
+  left: 156px;
+  top: 792px;
+}
+.strategy {
+  color: var(--navyblue, #2e2f42);
+  text-align: left;
+  font-family: var(--header-3-font-family, "Roboto-Medium", sans-serif);
+  font-size: var(--header-3-font-size, 20px);
+  line-height: var(--header-3-line-height, 24px);
+  font-weight: var(--header-3-font-weight, 500);
+  position: relative;
+  width: 264px;
+}
+.our-goal-is-to-identify-the-business-problem-to-walk-away-with-the-perfect-and-creative-solution {
+  color: var(--slate, #434455);
+  text-align: left;
+  font-family: var(--body-font-family, "Roboto-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 24px);
+  font-weight: var(--body-font-weight, 400);
+  position: relative;
+  width: 264px;
+}
+.hero-image {
+  position: absolute;
+  inset: 0;
+}
+.dark-bg2 {
+  background: var(--navyblue, #2e2f42);
+  width: 1440px;
+  height: 600px;
+  position: absolute;
+  left: 0px;
+  top: 72px;
+}
+.button {
+  background: var(--iris, #4d5ae5);
+  border-radius: 4px;
+  padding: 16px 32px 16px 32px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 636px;
+  top: 428px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.order-service {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font-family: var(--button-text-font-family, "Roboto-Medium", sans-serif);
+  font-size: var(--button-text-font-size, 16px);
+  line-height: var(--button-text-line-height, 24px);
+  font-weight: var(--button-text-font-weight, 500);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.effective-solutions-for-your-business {
+  color: var(--white, #ffffff);
+  text-align: center;
+  font-family: var(--header-1-font-family, "Roboto-Bold", sans-serif);
+  font-size: var(--header-1-font-size, 56px);
+  line-height: var(--header-1-line-height, 60px);
+  font-weight: var(--header-1-font-weight, 700);
+  position: absolute;
+  left: 472px;
+  top: 260px;
+  width: 496px;
+}
+.top-line {
+  width: 1440px;
+  height: 72px;
+  position: sticky;
+  left: 0px;
+  top: 0px;
+}
+.top-line2 {
+  position: absolute;
+  inset: 0;
+}
+.top-line-bg {
+  background: var(--white, #ffffff);
+  border-style: solid;
+  border-color: var(--cornflower, #e7e9fc);
+  border-width: 0px 0px 1px 0px;
+  width: 1440px;
+  height: 72px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+}
+._11-000-111-11-11 {
+  color: var(--slate, #434455);
+  text-align: left;
+  font-family: var(--body-font-family, "Roboto-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 24px);
+  font-weight: var(--body-font-weight, 400);
+  position: absolute;
+  left: 1133px;
+  top: 24px;
+}
+.info-devstudio-com {
+  color: var(--slate, #434455);
+  text-align: left;
+  font-family: var(--body-font-family, "Roboto-Regular", sans-serif);
+  font-size: var(--body-font-size, 16px);
+  line-height: var(--body-line-height, 24px);
+  font-weight: var(--body-font-weight, 400);
+  position: absolute;
+  left: 940px;
+  top: 24px;
+}
+.menu-nav {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 347px;
+  top: 24px;
+}
+.studio2 {
+  color: var(--navyblue, #2e2f42);
+  text-align: left;
+  font-family: var(--body-medium-font-family, "Roboto-Medium", sans-serif);
+  font-size: var(--body-medium-font-size, 16px);
+  line-height: var(--body-medium-line-height, 24px);
+  font-weight: var(--body-medium-font-weight, 500);
+  position: relative;
+}
+.portfolio {
+  color: var(--navyblue, #2e2f42);
+  text-align: left;
+  font-family: var(--body-medium-font-family, "Roboto-Medium", sans-serif);
+  font-size: var(--body-medium-font-size, 16px);
+  line-height: var(--body-medium-line-height, 24px);
+  font-weight: var(--body-medium-font-weight, 500);
+  position: relative;
+}
+.contacts {
+  color: var(--navyblue, #2e2f42);
+  text-align: left;
+  font-family: var(--body-medium-font-family, "Roboto-Medium", sans-serif);
+  font-size: var(--body-medium-font-size, 16px);
+  line-height: var(--body-medium-line-height, 24px);
+  font-weight: var(--body-medium-font-weight, 500);
+  position: relative;
+}
+.logo2 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  height: 24px;
+  position: absolute;
+  left: 156px;
+  top: 24px;
+}
+.web2 {
+  color: var(--iris, #4d5ae5);
+  text-align: left;
+  font-family: "Raleway-ExtraBold", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 800;
+  text-transform: uppercase;
+  position: relative;
+  width: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.studio3 {
+  color: var(--navyblue, #2e2f42);
+  text-align: left;
+  font-family: "Raleway-ExtraBold", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 800;
+  text-transform: uppercase;
+  position: relative;
+  width: 71px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
